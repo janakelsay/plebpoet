@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #7d8f78 !important;
 		}
 
 	strong, b {
@@ -1856,8 +1856,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #7d8f78;
+				border-color: #7d8f78;
 			}
 
 			.icon.style2:active {
@@ -2724,7 +2724,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #97A7BE;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
