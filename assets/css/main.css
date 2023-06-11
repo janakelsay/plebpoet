@@ -2583,6 +2583,13 @@ input, select, textarea {
 		margin: -2.5em 0 0 -2.5em;
 	}
 
+	.tiles .text-container {
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 3%;
+		border-bottom: 1px solid black;
+	}
+
 		.tiles article {
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
