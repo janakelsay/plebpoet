@@ -1,0 +1,14 @@
+{
+    "names": {
+      "plebpoet": "fdb8c8284db56a975eda467e57e375150a51cba8880d8f0fa797529f84c16368"
+    },
+    "relays": {
+      "fdb8c8284db56a975eda467e57e375150a51cba8880d8f0fa797529f84c16368": [
+        "wss://relay.damus.io",
+        "wss://nos.lol",
+        "wss://relay.nostr.band",
+        "wss://relay.snort.social",
+        "wss://relay.primal.net"
+      ]
+    }
+  }
