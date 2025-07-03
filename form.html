@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preorder Book | plebpoet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="logo">
+                    <span class="symbol"></span><h1 class="title">plebpoet</h1>
+                </a>
+            </div>
+        </header>
+        <div id="main">
+            <div class="inner">
+                <header>
+                    <h1>Preorder Book</h1>
+                    <p>Fill out the form below to preorder your copy.</p>
+                </header>
+                <form method="POST" action="https://formspree.io/f/mgvyqpkj" class="preorder-form" id="preorderForm">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" required />
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required />
+                        </div>
+                        <div class="field half">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" name="quantity" id="quantity" min="1" value="1" required />
+                        </div>
+                        <div class="field">
+                            <label for="notes">Notes (optional)</label>
+                            <textarea name="notes" id="notes" rows="3" placeholder="Any special requests or notes?"></textarea>
+                        </div>
+                    </div>
+                    <input type="hidden" name="_subject" value="New Plebpoet Preorder!" />
+                    <input type="hidden" name="_redirect" value="thankyou.html" />
+                    <ul class="actions">
+                        <li><input type="submit" value="Submit Preorder" class="primary" /></li>
+                    </ul>
+                </form>
+                <div id="confirmationMessage" style="display:none; text-align:center; padding:2em; background:#f8f8f8; border-radius:8px; margin-top:2em;">
+                    <h2>Thank you for your preorder!</h2>
+                    <p>Wow that's so cool and sophisticated of you! I will contact you soon with more details.</p>
+                    <a href="index.html" class="button">Back to Home</a>
+                </div>
+                <!--
+                <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  var form = document.getElementById('preorderForm');
+                  var confirmation = document.getElementById('confirmationMessage');
+                  if(form) {
+                    form.addEventListener('submit', function(e) {
+                      e.preventDefault();
+                      form.style.display = 'none';
+                      confirmation.style.display = 'block';
+                    });
+                  }
+                });
+                </script>
+                -->
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="inner">
+                <section>
+                    <h4>follow plebpoet online</h4>
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/plebpoet" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.instagram.com/plebpoet" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="https://github.com/janakelsay" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="mailto:janakelsay@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 

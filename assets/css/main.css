@@ -2330,7 +2330,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 60%;
 		}
 
 			.image.left img, .image.right img {
@@ -2754,8 +2754,8 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					background-color: transparent;
+					opacity: 0;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -3361,35 +3361,42 @@ input, select, textarea {
     border-radius: 8px;
     padding: 1.5em 1em;
     box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-    gap: 2em;
+    gap: 2.5em; /* Increased gap for better balance */
+    justify-content: center; /* Center content horizontally */
 }
 
-.book .image.left img {
-    width: 120px;
-    min-width: 100px;
-    max-width: 140px;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+.book .image.right, .book .image.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .book-info {
     flex: 1;
-}
-
-.book-info h2 {
-    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 0.5em;
+    text-align: left;
+    gap: 1.2em;
 }
 
 @media (max-width: 700px) {
     .book {
         flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-        gap: 1em;
+        align-items: center;
+        text-align: center;
+        gap: 1.5em; /* Add more space between image and text on mobile */
+        padding: 1.5em 0.5em;
     }
-    .book .image.left img {
+    .book .image.left img, .book .image.right img {
         width: 100px;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.8em;
+    }
+    .book-info {
+        align-items: center;
+        text-align: center;
+        gap: 1em;
     }
 }
