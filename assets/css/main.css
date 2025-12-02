@@ -3382,6 +3382,33 @@ input, select, textarea {
     gap: 1.2em;
 }
 
+/* Christmas promotion styling */
+.christmas-promo {
+    background: #722F37 !important; /* Wine red background */
+}
+
+.christmas-promo .book-info h2,
+.christmas-promo .book-info p {
+    color: #ffffff;
+}
+
+.christmas-button {
+    background-color: #6B8E6B !important; /* Muted green */
+    color: #ffffff !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.christmas-button:hover {
+    background-color: #7A9A7A !important; /* Lighter muted green on hover */
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.christmas-button:active {
+    background-color: #5A7A5A !important; /* Darker muted green on active */
+}
+
 @media (max-width: 700px) {
     .book {
         flex-direction: column;
