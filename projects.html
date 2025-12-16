@@ -11,6 +11,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.tiles-two {
+				justify-content: space-between;
+			}
+			.tiles-two article {
+				width: calc(50% - 1.25em) !important;
+				flex: 0 0 calc(50% - 1.25em);
+				max-width: 400px;
+			}
+			.tiles-two article .image img {
+				max-width: 100%;
+				height: auto;
+			}
+			.tiles-two .text-container {
+				width: 100%;
+				text-align: center;
+				margin: 0 auto;
+				display: block;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -50,12 +70,25 @@
 							<h2>Projects</h2>
 							<section class="tiles">
 								<article>
+									<span class="image fit"><img src="images/snzstack.png"></span>
+								</article>
+								<article>
+									<span class="image fit"><img src="images/snzsparkle.png"></span>
+								</article>
+								<article>
+									<span class="image fit"><img src="images/snzyellow.png"></span>
+								</article>
+								<div class="text-container">
+									<h3>SNZ for Christmas</h3>
+									<p>I put together a tome of my zines for Stacker News using binder rings, cork fabric and page protectors. </br> These 37 8-page zines made for a unique gift for Christmas.</p>
+								</div></section>
+							<section class="tiles">
+								<article>
 									<span class="image fit"><img src="images/ramonacomplete.png"></span>
 								</article>
 								<article>
 									<span class="image fit"><img src="images/ramonaprogress1.png"></span>
 								</article>
-								
 								<article>
 									<span class="image fit"><img src="images/ramonaprogress0.png"></span>
 								</article>
@@ -114,10 +147,10 @@
 									<p>A book of poems, an ongoing project.</p>
 								</div> 
 							</section></br> -->
-							<section class="tiles">
-								<article>
+							<section class="tiles tiles-two">
+								<!-- <article>
 									<span class="image"><img src="images/funroommural.jpg"></span>
-								</article>
+								</article> -->
 								<article>
 									<span class="image"><img src="images/plantmural.jpg"></span>
 								</article>
