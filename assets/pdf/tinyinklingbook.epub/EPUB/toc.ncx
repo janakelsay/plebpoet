@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:736211e0-d570-4931-8a04-0b157401b7d8" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+    <meta name="cover" content="tiotfbmcover_png" />
+  </head>
+  <docTitle>
+    <text>A tiny inkling of things far beyond me</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text>A tiny inkling of things far beyond me</text>
+      </navLabel>
+      <content src="text/title_page.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-1">
+      <navLabel>
+        <text>A tiny inkling of things far beyond me</text>
+      </navLabel>
+      <content src="text/ch001.xhtml#a-tiny-inkling-of-things-far-beyond-me" />
+      <navPoint id="navPoint-2">
+        <navLabel>
+          <text>inscription</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#inscription" />
+      </navPoint>
+      <navPoint id="navPoint-3">
+        <navLabel>
+          <text>Someone Extraordinary</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#someone-extraordinary" />
+      </navPoint>
+      <navPoint id="navPoint-4">
+        <navLabel>
+          <text>To write a poem</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#to-write-a-poem" />
+      </navPoint>
+      <navPoint id="navPoint-5">
+        <navLabel>
+          <text>Eating my days</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#eating-my-days" />
+      </navPoint>
+      <navPoint id="navPoint-6">
+        <navLabel>
+          <text>crystal structure analysis</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#crystal-structure-analysis" />
+      </navPoint>
+      <navPoint id="navPoint-7">
+        <navLabel>
+          <text>Questions over coffee</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#questions-over-coffee" />
+      </navPoint>
+      <navPoint id="navPoint-8">
+        <navLabel>
+          <text>Asleep on a bench</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#asleep-on-a-bench" />
+      </navPoint>
+      <navPoint id="navPoint-9">
+        <navLabel>
+          <text>Preserving hands</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#preserving-hands" />
+      </navPoint>
+      <navPoint id="navPoint-10">
+        <navLabel>
+          <text>From above the carpet tiles in your room</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#from-above-the-carpet-tiles-in-your-room" />
+      </navPoint>
+      <navPoint id="navPoint-11">
+        <navLabel>
+          <text>sitting idly by</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#sitting-idly-by" />
+      </navPoint>
+      <navPoint id="navPoint-12">
+        <navLabel>
+          <text>My mythology</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#my-mythology" />
+      </navPoint>
+      <navPoint id="navPoint-13">
+        <navLabel>
+          <text>When I am alone</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#when-i-am-alone" />
+      </navPoint>
+      <navPoint id="navPoint-14">
+        <navLabel>
+          <text>Aren’t we beautiful on the trail for a moment?</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#arent-we-beautiful-on-the-trail-for-a-moment" />
+      </navPoint>
+      <navPoint id="navPoint-15">
+        <navLabel>
+          <text>To the mountains</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#to-the-mountains" />
+      </navPoint>
+      <navPoint id="navPoint-16">
+        <navLabel>
+          <text>Final</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#final" />
+      </navPoint>
+      <navPoint id="navPoint-17">
+        <navLabel>
+          <text>About</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#about" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
